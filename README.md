@@ -21,4 +21,4 @@ Empirical evidence from both Ethereum and Solana datasets confirms a structural 
 * This structural concavity suggests a massive level of top-of-book depth, allowing the ETH market to absorb institutional sweeps and large position accumulations with far less price friction than Solana.
 
 ### Data Notice: 
-The high-frequency tick and order book data used to model the empirical Power Law fits are stored in massive .parquet files that exceed GitHub's repository limits.
+> The high-frequency tick and order book data used to model the empirical Power Law fits are stored in massive .parquet files that exceed GitHub's repository limits.
