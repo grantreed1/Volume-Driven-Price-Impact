@@ -1,9 +1,9 @@
 # Estimating Market Impact From Position Accumulation
 We investigate the temporary price impact $I(V)$ of trade volume $V$ across cryptocurrency markets, specifically focusing on Ethereum (ETH) and Solana (SOL).
 
-We aim to determine how well crypto markets absorb large block trades without moving the price by comparing the theoretical Square Root Law of market impact against an empirical Power Law fit.
+We aim to determine how well crypto markets absorb large block trades without moving the price. 
 
-## Methodology: 
+## Methodology: Square Root Law of Market Impact vs. Empirical Power Law fit.
 We model the temporary price impact against executed volume. We evaluate two distinct models:
 
 1. **The Square Root Law (Theoretical):** The industry-standard baseline which assumes price impact scales with the square root of volume: 
