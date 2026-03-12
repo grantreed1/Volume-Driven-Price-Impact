@@ -12,10 +12,13 @@ We model the temporary price impact against executed volume. We evaluate two dis
 ## Key Findings:
 Empirical evidence from both Ethereum and Solana datasets confirms a structural departure from the theoretical Square Root Law. While both assets exhibit extreme concavity, their liquidity profiles and absorption capacities differ significantly.
 
-### 1. Solana (SOL): High Sensitivity
+### 1. Solana (SOL): 
 * Solana demonstrates a substantially more stable and cleaner statistical fit to the empirical Power Law.
 * However, its limit order book is approximately **3.4 times more sensitive** to trade volume than Ethereum, resulting in higher execution friction for large block trades.
 
 ### 2. Ethereum (ETH):
 * Ethereum exhibits a near-zero exponent for its Power Law fit ($\mu_2 \approx 0$).
 * This structural concavity suggests a massive level of top-of-book depth, allowing the ETH market to absorb institutional sweeps and large position accumulations with far less price friction than Solana.
+
+### Data Notice: 
+The high-frequency tick and order book data used to model the empirical Power Law fits are stored in massive .parquet files that exceed GitHub's repository limits.
